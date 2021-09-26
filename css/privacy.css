@@ -1,0 +1,292 @@
+/* FONT DOSYALARI START */
+
+@font-face {
+  font-family: Poppins-Black;
+  src: url(../fonts/poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: Poppins-BlackItalic;
+  src: url(../fonts/poppins/Poppins-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-BoldItalic;
+  src: url(../fonts/poppins/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url(../fonts/poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-ExtraBoldItalic;
+  src: url(../fonts/poppins/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-ExtraLight;
+  src: url(../fonts/poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Poppins-ExtraLightItalic;
+  src: url(../fonts/poppins/Poppins-ExtraLightItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Italic;
+  src: url(../fonts/poppins/Poppins-Italic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins-LightItalic;
+  src: url(../fonts/poppins/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins-MediumItalic;
+  src: url(../fonts/poppins/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-SemiBoldItalic;
+  src: url(../fonts/poppins/Poppins-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Thin;
+  src: url(../fonts/poppins/Poppins-Thin.ttf);
+}
+
+@font-face {
+  font-family: Poppins-ThinItalic;
+  src: url(../fonts/poppins/Poppins-ThinItalic.ttf);
+}
+
+
+
+
+/* FONT DOSYALARI END */
+
+
+/* HTML TOPLU DÜZENLEME KODLARI START */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Poppins-Regular;
+  color: #444;
+}
+
+p {
+
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+h1 {
+  font-family: Poppins-ExtraBold;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: Poppins-Bold;
+  letter-spacing: -1px;
+  font-weight: 800;
+}
+
+h3 {
+  font-family: Poppins-Medium;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: Poppins-Regular;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: Poppins-Light;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 0 !important;
+}
+
+.bg-danger,
+.bg-danger:hover {
+  background-color: #ff3838 !important;
+}
+
+.btn-danger {
+  background-color: #ff3838 !important;
+}
+
+.btn-danger:hover {
+  background-color: #760000 !important;
+}
+
+
+/* HTML TOPLU DÜZENLEME KODLARI END */
+
+
+
+
+
+
+
+/* FOOTER ALANI START*/
+
+footer#footer {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+footer#footer .yapim {
+  color: white;
+  text-align: center;
+}
+
+footer#footer .yapim p {
+  margin: 20px 0;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.footer-social-icon {
+  margin: 20px 0px 20px 0px;
+  width: 100%;
+}
+
+
+/* FOOTER ALANI END*/
+
+
+/* SOCIAL ICON START*/
+
+.social-icon {
+  margin: 20px 0px 20px 0px;
+  width: 100%;
+}
+
+.social-icon i {
+  margin: 5px;
+  color: white;
+  font-size: 17px;
+  border-radius: 5%;
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  background-color: #252a34;
+}
+
+.social-icon i::before {
+  position: relative;
+  top: -8px;
+  left: -7px;
+}
+
+.social-icon i.fa-facebook::before {
+  left: -5px;
+}
+
+.social-icon i.fa-facebook:hover {
+  background-color: #2980b9;
+  transition: all .3s ease;
+}
+
+.social-icon i.fa-instagram:hover {
+  background-color: #9b59b6;
+  transition: all .3s ease;
+}
+
+.social-icon i.fa-twitter:hover {
+  background-color: #3498db;
+  transition: all .3s ease;
+}
+
+.social-icon i.fa-linkedin:hover {
+  background-color: #2ecc71;
+  transition: all .3s ease;
+}
+
+.social-icon i.fa-codepen:hover {
+  background-color: #f1c40f;
+  transition: all .3s ease;
+}
+
+
+
+/* SOCIAL ICON END*/
+
+/* LOADER ALANI KODLARI */
+
+#preloader {
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2147483647;
+  width: 100%;
+  height: 100%;
+}
+
+#status {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #dbbb0a;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.kapat {
+  display: none;
+}
